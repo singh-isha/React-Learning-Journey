@@ -1,0 +1,5 @@
+ /* gives the id:  heading  from react element's attribute */
+#heading{
+    color: blueviolet;
+    font-size: 2rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="first.css" />
+    <title>react</title>
+  </head>
+  <body>
+   <!-- <h1> hii through html </h1>
+    <div id="main"></div> -->
+<!--     <script>
+       // Create a new heading element
+const heading = document.createElement("h1");
+heading.innerHTML = "hiii through javascript";
+
+// Retrieve the main container element
+const main = document.getElementById("main");
+
+// Append the heading element to the main container
+main.appendChild(heading);
+      </script -->
+
+      <div id="main"></div>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+<!-- this is how we write react code in html file using javascript and cdn links -->
+<!-- <script>
+  const heading = React.createElement("h1", {}, "hiii through React");
+
+  const root = ReactDOM.createRoot(document.getElementById("main"));
+
+  root.render(heading);
+</script>
+ -->
+
+ <!-- this is how we write react code in ja file by providing links to the HTML files -->
+    
+<script src="first.js"></script>   
+ <!-- cannot change the order of these react and js files , will through error -->
+  </body>
+</html>
